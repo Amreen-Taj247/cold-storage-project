@@ -1,2 +1,1 @@
-web: gunicorn
- ColdStorageManagementSystem.wsgi
+web: gunicorn ColdStorageManagementSystem.wsgi:application
